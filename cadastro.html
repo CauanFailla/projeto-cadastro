@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+    <main id="login">
+        <section id="imagem">
+        </section>
+        <section id="formulario">
+            <h1>Cadastro</h1>
+            <p>Faça seu cadastro para comprar nossos produtos.</p>
+            <form method="post" action="dados.php">
+                <div class="prin">
+                    <span class="material-icons">person</span>
+                    <input type="text" name="nome" id="inome" required placeholder="Nome completo">
+                    <label for="inome">nome</label>
+                </div>
+                <div  class="prin">
+                    <span class="material-icons">email</span>
+                    <input type="email" name="email" id="email" placeholder="Seu melhor e-mail">
+                    <label for="iemail">email</label>
+                </div>
+                <div class="prin">
+                    <span class="material-icons">vpn_key</span>
+                    <input type="password" name="senha" id="isenha" placeholder="Crie uma senha (minimo 8)" minlength="8">
+                    <label for="isenha">senha</label>
+                </div>
+                <div class="prin">
+                    <span class="material-icons">https</span>
+                        
+                    <input type="text" name="cpf" id="icpf" placeholder="Seu CPF (xxx.xxx.xxx-xx)" pattern="^[0-9]{3}[.][0-9]{3}[.][0-9]{3}[-][0-9]{2}$" required>
+                    <label for="icpf">CPF</label>
+                </div>
+                <input type="submit" value="Cadatrar">
+            </form>
+        </section>
+    </main>
+</body>
+</html>

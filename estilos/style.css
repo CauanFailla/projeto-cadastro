@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+:root {
+    --cor1: #486966;
+    --cor2: #889C9B;
+    --cor3: #B2BEBF;
+    --cor4: #3B3936;
+    --cor5: #BD2A2E;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--cor1);
+}
+
+#login {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 260px;
+    height: 520px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+#login #imagem {
+    height: 200px;
+    background-image: url('../imagens/pexels-david-underland-3523621.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+#login #formulario {
+    padding: 10px;
+}
+
+#formulario h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#formulario p {
+    margin-bottom: 15px;
+}
+
+#formulario .prin {
+    margin-top: 8px;
+    background-color: var(--cor1);
+    border-radius: 8px;
+    padding: 3px;
+}
+
+.prin span {
+    color: white;
+    font-size: 1.5em;
+}
+
+.prin label {
+    display: none;
+}
+
+.prin input {
+    background-color: var(--cor3);
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    width: calc(100% - 31px);
+    transform: translateY(-4px);
+}
+
+.prin input:focus-within {
+    background-color: white;
+}
+
+form input[type=submit] {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    background-color: #53504b;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+form input[type=submit]:hover {
+    cursor: pointer;
+    background-color: #2c2b29;
+}
+

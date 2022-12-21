@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body {
+        background-image: linear-gradient(to bottom, #486966,#889C9B,#B2BEBF);
+    }
+
+    #login {
+        width: 80vw;
+        height: 330px;
+    }
+
+    #login #imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    #formulario {
+        float: right;
+        width: 60%;
+    }
+
+    #formulario p {
+        text-align: center;
+    }
+
+    #formulario .prin {
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .prin input {
+        padding: 6px;
+        border-radius: 10px;
+        transform: translateY(0px);
+        
+    }
+
+    .prin span {
+        font-size: 1.7em;
+        vertical-align: middle;
+    }
+
+    .prin input {
+        font-size: 1em;
+    }
+
+    form input[type=submit] {
+        padding: 8px;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+
+    ::placeholder {
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    #login {
+        width: 900px;
+        height: 330px;
+    }
+
+    #login #imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login #formulario {
+        width: 50%;
+    }
+
+    #formulario h1 {
+        font-size: 1.8em;
+    }
+
+    #formulario p {
+        text-align: center;
+    }
+
+    #formulario .prin {
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .prin input {
+        padding: 6px;
+        border-radius: 10px;
+        transform: translateY(0px);
+        
+    }
+
+    .prin span {
+        font-size: 1.7em;
+        vertical-align: middle;
+    }
+
+    .prin input {
+        font-size: 1em;
+    }
+
+    form input[type=submit] {
+        padding: 8px;
+        border-radius: 5px;
+        font-size: 1em;
+    }
+
+    ::placeholder {
+        font-size: 16px;
+    }
+}

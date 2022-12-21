@@ -1,18 +1,18 @@
 @charset "UTF-8";
 
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 :root {
     --cor1: #486966;
     --cor2: #889C9B;
     --cor3: #B2BEBF;
     --cor4: #3B3936;
     --cor5: #BD2A2E;
-}
-
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -34,8 +34,6 @@ body {
     transition-duration: 0.3s;
     transition-timing-function: ease;
     transform: translate(-50%, -50%);
-    
-
 }
 
 #login #imagem {
